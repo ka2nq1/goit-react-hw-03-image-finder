@@ -1,9 +1,9 @@
 import React from 'react';
-// import styles from './Loader.module.css';
+import styles from './Loader.module.css';
 
 function Loader({message}) {
     return (
-        <div>{message}</div>
+        <div className={styles.loader}>{message}</div>
     )
 }
 
